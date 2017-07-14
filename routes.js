@@ -6,11 +6,7 @@
 
 module.exports = function(app) {
 
-  app.use('/api/addresses', require('./api/address'));
-
-  app.get('/api', function(req, res) {
-    res.redirect('/');
-  });
+  app.use('/', require('./api/address'));
 
   app.use(function(err, req, res, next) {
     var status = err.status || 500;
