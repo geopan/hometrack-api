@@ -6,6 +6,9 @@
   "scripts": {
     "test": "grunt test"
   },
+  "engines": {
+    "node": ">=8"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geopan/hometrack-api.git"
