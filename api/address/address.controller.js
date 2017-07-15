@@ -12,9 +12,7 @@ class AddressController {
 
     try {
 
-      let result = payload;
-
-      result = payload.map(function(address) {
+        let result = payload.map(function(address) {
 
         const {unitNumber, buildingNumber, street, suburb, postcode, state} = address.address;
         const {type, workflow} = address;
