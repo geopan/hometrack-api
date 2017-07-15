@@ -32,6 +32,8 @@ class AddressController {
       return res.json(result);
 
     } catch (err) {
+      err.status = 400;
+      err.message = "Could not decode request: JSON parsing failed";
       return next(err);
     }
 
