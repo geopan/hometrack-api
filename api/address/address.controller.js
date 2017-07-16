@@ -12,7 +12,7 @@ class AddressController {
 
     try {
 
-        let result = payload.map(function(address) {
+        let response = payload.map(function(address) {
 
         const {unitNumber, buildingNumber, street, suburb, postcode, state} = address.address;
         const {type, workflow} = address;
@@ -27,7 +27,7 @@ class AddressController {
 
       });
 
-      return res.json(result);
+      return res.json({response});
 
     } catch (err) {
       err.status = 400;

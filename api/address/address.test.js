@@ -149,7 +149,7 @@ describe('Addresses', function() {
     });
 
     it('should respond with JSON array', function() {
-      expect(addresses).to.be.instanceOf(Array);
+      expect(addresses).to.have.property('response');
     });
 
   });
