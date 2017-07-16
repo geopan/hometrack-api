@@ -17,7 +17,7 @@ grunt test
 
 ## Run
 ### Development
-Run the app with in development mode using grunt with watch and autoreload.
+Run the app in development mode using grunt with watch and autoreload.
 ```
 grunt serve
 ```
