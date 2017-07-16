@@ -4,7 +4,7 @@ A simple address concatener api.
 
 Use the following link for testing the api in production:
 
-`POST` https://hometrack-address-api.herokuapp.com
+`POST` the sample request to https://hometrack-address-api.herokuapp.com
 
 ## Install
 ```
