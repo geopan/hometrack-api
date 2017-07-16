@@ -2,6 +2,10 @@
 
 A simple address concatener api.
 
+Use the following link for testing the api in production:
+
+`POST` https://hometrack-address-api.herokuapp.com
+
 ## Install
 ```
 $ git clone https://github.com/geopan/hometrack-api.git
