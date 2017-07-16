@@ -5,8 +5,7 @@ A simple address concatener api.
 ## Install
 ```
 $ git clone https://github.com/geopan/hometrack-api.git
-$ cd hometrack
-$ /hometrack
+$ cd hometrack/
 $ npm install
 ```
 
